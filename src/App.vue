@@ -1,9 +1,6 @@
 <template>
   <div id="app">
     <el-container>
-      <el-header class="header">
-        <vheader />
-      </el-header>
       <el-container>
         <el-aside width="200px">
           <navmenu></navmenu>
@@ -17,13 +14,15 @@
 </template>
 <script>
 import NavMenu from '@/components/NavMenu'
-import Header from '@/components/Header'
+// import Header from '@/components/Header'
+
+import login from "./components/login";
 
 export default {
   name: 'app',
   components: {
+    // 'login':login
     'navmenu': NavMenu,
-    'vheader': Header
   }
 }
 </script>

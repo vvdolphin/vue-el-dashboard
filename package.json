@@ -12,8 +12,9 @@
     "deploy": "git subtree push --prefix docs origin gh-pages"
   },
   "dependencies": {
+    "axios": "^0.20.0",
     "element-ui": "^2.0.4",
-    "vue": "^2.5.2",
+    "vue": "^2.6.12",
     "vue-router": "^3.0.1"
   },
   "devDependencies": {

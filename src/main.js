@@ -8,6 +8,10 @@ import Icon from 'vue-awesome/components/Icon'
 import App from './App'
 import router from './router'
 
+var axios = require('axios')
+axios.defaults.baseURL = 'http://localhost:8083/courses'
+Vue.prototype.$axios = axios
+
 Vue.config.productionTip = false
 
 Vue.use(ElementUI)
